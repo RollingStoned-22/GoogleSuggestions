@@ -1,0 +1,5 @@
+const {suggestions} = this.state
+    const selectedSuggestion = suggestions.filter(
+      suggestion => suggestion.id === id,
+    )
+    this.setState({searchInput: selectedSuggestion.suggestion})
